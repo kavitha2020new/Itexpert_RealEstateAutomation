@@ -22,7 +22,42 @@ and open the template in the editor.
             .right-widget{display:inline;float:right;}
             .header_wrapper.header_type3 {height: 123px;}
             .signin_action{float:right;display:inline;margin-top:0;font-size:14px}
-           
+            .image-container-own {
+                position: relative;
+            }
+
+            .image-container-own img {
+                position: absolute;
+                width:100%;
+                height:300px;
+                top: 0px;
+                z-index: -1;
+                margin-left: -1144px;
+            }
+
+            .top-image {
+                animation-name: fade;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+                animation-direction: alternate;
+            }
+
+            @keyframes fade {
+                0% {
+                    opacity: 1;
+                }
+                25% {
+                    opacity: 1;
+                }
+                75% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+
         </style>
 
     </head>
@@ -63,8 +98,6 @@ and open the template in the editor.
                         <img src="https://d23r59tl76qo2o.cloudfront.net/wp-content/uploads/sites/11877/2016/12/c21black-300x153.png" class="img-responsive" alt="logo"/>                    </a>
                 </div>   
 
-
-
                 <div class="user_menu">   
                     <a href="#" data-target="#registerModal" class="signin_action" data-toggle="modal">Sign In</a>
                 </div> 
@@ -103,7 +136,11 @@ and open the template in the editor.
                 </nav>
             </div>
         </div>
+        <div class="image-container-own" style="height:300px; width:100%; top:165px; border-top: 0.5px solid #000000; border-bottom: 2px solid #000000;">
 
-      
+            <img class="bottom-image" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/uploads/sites/11877/2016/12/s1.jpg"  />
+            <img class="top-image" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/uploads/sites/11877/2016/12/s2.jpg"  />
+        </div>
+
     </body>
 </html>
