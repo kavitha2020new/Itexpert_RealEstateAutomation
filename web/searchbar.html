@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Search bar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel='stylesheet' id='cdn_styles-css'  href='https://d23r59tl76qo2o.cloudfront.net/9ada969e0bc3.min.css?ver=4.3.1' type='text/css' media='all'/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            #search_wrapper{
+      border-bottom: 3px solid #000000;
+    } 
+    .adv-search-1{
+            border-top: 1px solid #000000;}
+    #idx-search-form_5e4991045df21 .form-control {
+  margin-right:10px;
+}
+
+#idx-search-form_5e4991045df21 .dropdown.form-control {
+  width: 170px;
+  display:inline-block; margin-bottom:10px; padding: 0
+}
+#find_my_location_widget_5e499104a0e01 {
+  width: 100px;
+}
+
+
+        </style>
+        </head>
+        <body>
+            <div class="search_wrapper search_wr_2" id="search_wrapper">   
+  <div class="adv-search-1 adv-search-2 " id="adv-search-2" style="bottom: 50px; padding-top: 27px; height: 140px;"> 
+	<div class="transparent-wrapper"></div> 
+	<div>
+	   <form id="idx-search-form_5e4991045df21" class="visible-wrapper" method="get" action="/idx/search">
+		<div class="row">
+
+			<div class="col-md-3">
+
+				<button id="find_my_location_widget_5e4991045df21" class="wpb_button wpb_btn-info wpb_btn-large form-control" 
+    data-loading-text="<i class='fa fa-spin fa-circle-o-notch' style='font-size:16px; margin-right:5px'></i>" 
+    style="width: 100%;">Find My Location</button>
+
+<select id="pack_select" class="select-submit2" name="location_type" 
+    style="margin-bottom: 3px; display: none;">
+    <option id='idx_location_button_LC_5e4991045df21' value='LC' >Search by City</li></select>
+			</div>
+			<div class="col-md-6">
+
+				<input class="form-control z57_idx_search_input" id="location_input_5e4991045df21" type="text"
+					 name="location" value="" size="" placeholder="Type to search by city" 
+					 style="width: 100%; margin-bottom: 12px;" />
+
+			</div>
+			<div class="col-md-3">
+			  <button class="wpb_button wpb_btn-info wpb_btn-large idx-quick-search-submit form-control" type="submit" style="width: 100%;">Search</button>
+			</div>
+
+		</div>
+
+		<input type="hidden" name="feed_ids" value="">
+		<input type="hidden" name="search_location_type" value="">
+		<input type="hidden" name="neighborhoods" value="">
+		<input type="hidden" name="school_districts" value="">
+		<input type="hidden" name="zips" value="">
+				<input type="hidden" name="cities" value="">
+
+		<input type="hidden" name="status[]" value="ACTIVE">
+		<input type="hidden" name="bathrooms" value="0">
+		<input type="hidden" name="bedrooms" value="0">
+		<input type="hidden" name="min_price" value="100000">
+
+	  </form>
+	</div>
+  </div>  
+</div>
+
+
+    </body>
+</html>

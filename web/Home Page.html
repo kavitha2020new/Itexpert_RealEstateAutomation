@@ -24,15 +24,16 @@ and open the template in the editor.
             .signin_action{float:right;display:inline;margin-top:0;font-size:14px}
             .image-container-own {
                 position: relative;
+
             }
 
             .image-container-own img {
                 position: absolute;
-                width:100%;
+                width:1280px;
                 height:300px;
                 top: 0px;
                 z-index: -1;
-                margin-left: -1144px;
+                margin-left: -1280px;
             }
 
             .top-image {
@@ -57,7 +58,21 @@ and open the template in the editor.
                     opacity: 0;
                 }
             }
-
+            .search-container-own {
+                position:absolute;
+                z-index: 1;
+                height:96px;
+                width:1110px;
+                opacity:0.65;
+                margin:85px;
+            }
+            .row{margin-left: 15px;margin-right: 15px;}
+            .column1, .column2, .column3{
+                position:relative;
+                min-height: 1px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         </style>
 
     </head>
@@ -136,10 +151,27 @@ and open the template in the editor.
                 </nav>
             </div>
         </div>
-        <div class="image-container-own" style="height:300px; width:100%; top:165px; border-top: 0.5px solid #000000; border-bottom: 2px solid #000000;">
+        <div class="image-container-own" style="width:1280; height:300px; top:165px; border-top: 0.5px solid #000000; border-bottom: 2px solid #000000;">
 
             <img class="bottom-image" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/uploads/sites/11877/2016/12/s1.jpg"  />
             <img class="top-image" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/uploads/sites/11877/2016/12/s2.jpg"  />
+        </div>
+
+        <div class="search-container-own" style="top:220px; border-top:2px solid black; background-color: #fff;">
+            <form>
+            <div class="row" style="width:1028;height:53;border:none;">
+                <div class="column1">
+                    
+                </div>
+                <div class="column2">
+                    
+                </div>
+                <div class="column3">
+                    
+                </div>
+                
+            </div>
+            </form>
         </div>
 
     </body>
