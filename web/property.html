@@ -3,8 +3,6 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-
-
             .mySlides-own {display: none}
             .mySlides-own img {vertical-align: middle;}
 
@@ -51,6 +49,8 @@
                 right:0;
             }
 
+            
+
             /* Fading animation */
             .fade-own {
                 -webkit-animation-name: fade;
@@ -69,59 +69,40 @@
                 to {opacity: 1}
             }
 
-
-            .ribbon-wrapper{
-                width:105px;
-                height:30px;
-                position:absolute;
-                background-color: #434a54;
-                color:#fff;
-                border-radius: 4px;
-                border-bottom-left-radius: 0;
-                border-top-right-radius: 0;
-                cursor:pointer;
-                z-index: 1;
-
-            }
-            .ribbon-inside{
-                width:90%;
-                padding-left: 5%;
-                padding-right: 5%;
-                font-size:14px;
-                text-align: center;
-            }
+            /*
+            /* On smaller screens, decrease text size 
+            @media only screen and (max-width: 300px) {
+              .prev, .next,.text {font-size: 11px}
+            }*/
         </style>
-
     </head>
     <body>
 
-        <div class="property-list" style="width:238px; height:477px; top:0px;border: 2px solid #000000; border-radius: 4px;">
-            <div class="ribbon-wrapper"  >
-                <div class="ribbon-inside"> Off the Market</div>
-            </div> 
-            <div class="slideshow-container-own" style="width:236px; height:187px;">
+        <div class="slideshow-container-own" style="width:236px; height:187px;">
 
-                <div class="mySlides-own fade-own">
-                    <div class="numbertext-own">1/3</div>
-                    <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497742525_IMG_3543.JPEG" style="width:100%">
-                </div>
-
-                <div class="mySlides-own fade-own">
-                    <div class="numbertext-own">2/3</div>
-                    <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497677191_IMG_3555.JPEG" style="width:100%">
-                </div>
-
-                <div class="mySlides-own fade-own">
-                    <div class="numbertext-own">3/3</div>
-                    <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497720273_IMG_3547.JPEG" style="width:100%">
-                </div>
-
-                <a class="prev-own" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next-own" onclick="plusSlides(1)">&#10095;</a>
-
-
+            <div class="mySlides-own fade-own">
+                <div class="numbertext-own">1/3</div>
+                <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497742525_IMG_3543.JPEG" style="width:100%">
             </div>
+
+            <div class="mySlides-own fade-own">
+                <div class="numbertext-own">2/3</div>
+                <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497677191_IMG_3555.JPEG" style="width:100%">
+            </div>
+
+            <div class="mySlides-own fade-own">
+                <div class="numbertext-own">3/3</div>
+                <img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497720273_IMG_3547.JPEG" style="width:100%">
+            </div>
+
+            <a class="prev-own" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-own" onclick="plusSlides(1)">&#10095;</a>
+
+            
         </div>
+
+
+
         <script>
             var slideIndex = 1;
             showSlides(slideIndex);
@@ -146,9 +127,11 @@
                 for (i = 0; i < slides.length; i++) {
                     slides[i].style.display = "none";
                 }
-
+                
                 slides[slideIndex - 1].style.display = "block";
             }
         </script>
+
     </body>
-</html>
+</html> 
+
