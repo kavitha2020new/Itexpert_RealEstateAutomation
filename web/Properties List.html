@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title> &raquo; Mary Stevens</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet' id='cdn_styles-css'  href='https://d23r59tl76qo2o.cloudfront.net/9ada969e0bc3.min.css?ver=4.3.1' type='text/css' media='all'/>
+        <link rel="shortcut icon" href="http://template.sites.z57.com/wp-content/uploads/sites/2/2015/01/house-icon-50.png" type="image/x-icon" />
+        <link rel="stylesheet" href="CSS/layoutstyles.css" type='text/css' />
+        <link rel='stylesheet' id='social-widget-css'  href='//marystevens.com/wp-content/plugins/social-media-widget/social_widget.css?ver=4.3.1' type='text/css' media='all' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .property_icon {
+                font-size:13px;
+                margin:0 0 10px 13px;
+                color:#99a3b1;
+                line-height:13px;
+                float:left;
+                cursor:pointer;
+            }
+            .listing-title{
+                height:70px;
+                overflow: hidden;
+            }
+            .listing-title h4{
+                padding:10px 13px;
+                margin-top:19px;
+                margin-bottom: 6px;
+                float: left;
+                width:100%;
+            }
+            button.wpb_button {
+                background-color:black;
+                color:white;
+            }
+            .roominfo{
+                font-size: 13px;
+                background-repeat: no-repeat;
+                margin-right: 7px;
+                padding-left: 23px;
+                color:#99a3b1;
+            }
+            .bathinfo{ 
+                font-size: 13px;
+                background-repeat: no-repeat;
+                margin-right: 7px;
+                padding-left: 18px;
+                color:#99a3b1;
+            }
+            .listing_unit_price_wrapper{
+                color:#000000;
+                position:static;
+                padding-left: 10px;
+                margin-top:10px;
+            }
+            .share-actions{
+                float:right;
+                margin-top:3px;
+                position: Default;
+                top:11px;
+                cursor:pointer;
+                margin: 0px 0px 0px 13px
+
+            }
+
+            .col-md-8{
+                margin-top:25px;
+                min-height:1px;
+                padding-right: 15px;
+                padding-left:15px;
+                text-align: justify;
+                line-height: 1.5;
+            }
+            .col-md-8 p{
+                margin-bottom: 13px;
+                margin-right: 15px;
+
+            }
+            #slider_price_5e5d7c99a210a {
+                margin-left: 7px;
+                width: 100%;
+                max-width: 214px;
+                height: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .ui-slider-handle {
+                margin-top: -2px;
+                width: 17px;
+                height: 17px;
+            }
+
+            .advanced_search_shortcode { 
+                border-color:#000000;}
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="top_bar_wrapper">
+            <div class="top_bar">        
+                <div class="left-widget">
+                    <ul class="xoxo">
+                        <li id="text-5" class="widget-container widget_text">         
+                            <div class="textwidget">
+                                <i class="fa fa-phone"></i> <a href="tel:(847) 910-4890">(847) 910-4890</a> | <i class="fa fa-envelope-o"></i>  
+                                <a href=#>mstevens21@aol.com</a> | 
+                                <a href="http://www.facebook.com/MaryStevensRealEstate" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>  
+
+                <div class="right-widget">
+                    <ul class="xoxo">
+                        <li id="text-5" class="widget-container widget_text">         
+                            <div class="textwidget">
+                                <i class="fa fa-map-marker"></i> 
+                                1732 W. Wise Road, Schaumburg, IL 60193                    
+                            </div>
+                        </li>
+                    </ul>
+                </div> 
+                <!-- <span id="switch" style="margin-left: 20px;">swithc style</span> -->
+            </div>    
+        </div>
+
+        <div class="header_wrapper header_type3" style=" padding-bottom: 5px;border-bottom: 1px solid #000000;">
+            <div class="header_wrapper_inside">
+
+                <div class="logo">
+                    <a href="http://localhost:8080/Real%20Estate/Home%20Page.html">
+                        <img src="IMAGES/logoimg.png" class="img-responsive" alt="logo"/>                   
+                    </a>
+                </div>   
+
+                <div class="user_menu">   
+                    <a href="#" data-target="#registerModal" class="signin_action" data-toggle="modal">Sign In</a>
+                </div> 
+                <nav id="access">
+
+                    <div class="menu-top-navigation-container" style="z-index: 1;">
+                        <ul id="menu-top-navigation" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-1083">
+                                <a href=HomePage.html>Home</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-67"><a href="Listing">Listings</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-750"><a href="//marystevens.com/listings">Featured Properties</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-749"><a href="//marystevens.com/listings/sold-listings">Sold Listings</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1163"><a href="/idx/quick-search">Home Search</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1084"><a href="/idx/quick-search">Search Homes</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="//marystevens.com/recent-home-sales">Local Home Values</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-71"><a href="//marystevens.com/community-reports">Our Community</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="//marystevens.com/community-reports">Community Reports</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a href="//marystevens.com/school-reports">School Reports</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-747"><a href="//marystevens.com/points-of-interest">What&#8217;s Nearby</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-70"><a href="//marystevens.com/about-me">Services</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="//marystevens.com/contact-me">Contact</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="//marystevens.com/about-me">About</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="//marystevens.com/buyers">Buyers</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="//marystevens.com/sellers">Sellers</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2130"><a href="//marystevens.com/digital-millennium-copyright-act">Digital Millennium Copyright Act</a></li>
+                                </ul>
+                            </li>
+                        </ul></div>
+                </nav>
+            </div>
+        </div>
+
+
+        <!-- Sign-in  -->
+        <div id="registerModal" class="modal fade" data-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h3 id="register-div-title-topbar">Register for Information</h3>
+                        <h3 id="login-div-title-topbar">Login</h3>
+                    </div>
+                    <div class="modal-body" style="min-height: 450px; text-align: center;">
+                        <div style="margin-bottom:10px; text-align: justify;line-height: 20px;font-size: 14px">
+                            Enter your information to continue searching all properties available on the market. See listing
+                            photos and details about the latest listings.
+                        </div>
+
+                        <div class="sign-up-with-facebook-container" style="margin: auto; padding: 10px; text-align: center">
+                            <div class="sign-up-with-facebook">
+                                <div class="fb_iframe_overlay" style="display: inline-block; background: url('https://propertypulse.z57.com/images/mcc/common/sign_up_with_facebook_greyed.png') no-repeat !important;width: 250px; height: 49px;"><iframe src="https://propertypulse.z57.com/loginwith/fb?account_id=26303&amp;type=wp_lead_capture&amp;redirect_to=aHR0cDovL3d3dy5tYXJ5c3RldmVucy5jb20v&amp;referral=&amp;source=eyJzb3VyY2VfdXJsIjoiaHR0cDpcL1wvd3d3Lm1hcnlzdGV2ZW5zLmNvbVwvIiwiaWR4X3NlYXJjaF91cmwiOiIiLCJwcml2YWN5X2FjY2VwdGVkIjoiMiJ9" class="login_with_fb_frame" frameborder="0" scrolling="no" style="border: 0px; width: 250px; height: 49px;"></iframe>
+                                </div>  
+                            </div>
+                            <div style="padding-left: 5px; padding-bottom: 5px; text-align: center;">
+                                <img data-replace="false" src="//propertypulse.z57.com/images/mcc/common/login_with_or.png" />
+                            </div>
+                            <div class="login_with_fb" style="font-size: 14px; font-wieght: bold; color: #666; text-align: center;">
+                                Sign Up with Email
+                            </div>
+                        </div>
+                        <!-- div style="margin: auto; width: 50%; text-align: left;"-->
+                        <div class="row" style="margin:0">
+
+                            <div class="login_form" id="login-div_topbar" style="padding: 0">
+
+                                <form id="zfs_idx_lead_login_form" name="lead_login_form">
+                                    <div class="col-md-2"></div>
+                                    <div class="login_sidebar col-md-8">
+                                        <div class="loginalert" id="login_message_area_topbar"></div>
+                                        <input type="text" name="lead_login_form[email]" class="form-control" style="width: 100%" id="login_user_topbar" placeholder="Email*" />
+                                        <input type="text" class="email-check" name="lead_login_form[email_check]" placeholder="Email" />
+                                        <input type="hidden" name="privacy_confirm_chk" value="1" class="privacy_confirm_hidden"  />
+                                        <button class="wpb_button wpb_btn-info wpb_btn-large zfs_lead_login privacy_zfs_idx_lead_login_form" id="login_user_topbar_button" style="width:100%">Login</button>
+                                        <div class="login-links">
+                                            <a href="#" id="widget_register_topbar">Need to register?</a>
+                                        </div>    
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                </form>
+
+                                <script>
+                                    document.getElementById("login_user_topbar").addEventListener("keydown", function (event)
+                                    {
+                                        if (event.keyCode == 13)
+                                        {
+                                            event.preventDefault();
+                                            event.stopPropagation();
+                                            document.getElementById("login_user_topbar_button").click();
+                                            return false;
+                                        }
+                                    });
+
+                                    function show_email_info(element)
+                                    {
+                                        var address = $(element).data("address");
+                                        var listing_url = $(element).data('url');
+                                        var listing_code = $(element).data('code');
+
+                                        $("#email_listing_url").val(listing_url);
+                                        $("#email_listing_code").val(listing_code);
+                                        $("#email_listing_address").val(address);
+                                        $("#email_listing_feed_id").val($(element).data("feed-id"));
+                                        $("#email_listing_property_id").val($(element).data("property-id"));
+                                        $("#email_listing_comment").html("I want to share this listing with you: " + address);
+                                    }
+
+                                    function show_request_info(element)
+                                    {
+                                        var address = $(element).data("address");
+                                        var listing_url = $(element).data('url');
+                                        var listing_code = $(element).data('code');
+
+                                        $("#rq_info_listing_url").val(listing_url);
+                                        $("#rq_info_listing_address").val(address);
+                                        $("#rq_info_listing_code").val(listing_code);
+
+                                        $("#rq_info_listing_comment").html("I want to ask you about the listing at: " + address);
+
+                                        if ($(element).data("type") == "schedule")
+                                            $("#rq_info_listing_comment").html("I want to schedule a showing for the listing at: " + address);
+                                    }
+
+                                    function show_schedule_info(element)
+                                    {
+                                        var listing_address = $(element).data('address');
+                                        var listing_url = $(element).data('url');
+                                        var listing_code = $(element).data('code');
+
+                                        $('#schedule_showing_display_url').attr('href', listing_url).html("<strong>" + listing_address + "</strong>");
+                                        $('#schedule_showing_listing_address').val(listing_address);
+                                        $('#schedule_showing_listing_url').val(listing_url);
+                                        $('#schedule_showing_listing_code').val(listing_code);
+                                    }
+
+                                </script>
+
+                            </div>
+
+                            <div class="login_form" id="register-div-topbar" style="padding: 0">
+
+                                <form id="zfs_idx_lead_reg_form" name="lead_reg_form">
+                                    <div class="col-md-2"></div>
+                                    <div class="login_sidebar col-md-8">
+                                        <div class="loginalert" id="register_message_area_topbar"></div>
+                                        <input type="text" name="lead_reg_form[name]" id="top_bar_lead_reg_name" class="form-control" style="width: 100%" placeholder="Name*"  />
+                                        <input type="text" name="lead_reg_form[email]" id="top_bar_lead_reg_email" class="form-control" style="width: 100%" placeholder="Email*"  />
+                                        <input type="text" name="lead_reg_form[phone]" id="top_bar_lead_reg_phone" class="form-control wp-phone-required" style="width: 100%" placeholder="Phone Number"  />
+                                        <input type="hidden" name="privacy_confirm_chk" value="1" class="privacy_confirm_hidden"  />
+                                        <button class="wpb_button wpb_btn-info wpb_btn-large zfs_lead_reg privacy_zfs_idx_lead_login_form" id="wp-submit-register_topbar" >Register</button>
+                                        <div class="login-links">
+                                            <a href="#" id="widget_login_topbar">Already registered?</a>                       
+                                        </div>   
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                    <div class="idx-email-alerts-container" style="margin-top:15px;text-align:justify;line-height:20px;float:left; font-size:13px"></div>
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-2"></div>
+
+
+                        <div class="wp-privacy-required-toggle" style="text-align: left !important;font-size: 13px;margin-top: 10px;margin-bottom: 10px;line-height: 20px;">
+                            <input type="checkbox" checked="" id="privacy_zfs_idx_lead_login_form" name="privacy_confirm_chk" value="1" style="margin-top: -2px;">
+                            By submitting this form, you confirm that you have read and accept the
+                            <a href="/privacy" target="_blank">Data Privacy Policy</a>
+                        </div>
+
+                    </div>
+
+
+
+                </div> 
+            </div> 
+        </div>  
+        <script>
+
+            $("#registerModal").on('show.bs.modal', f);
+        </script>
+
+        <div class="container" style="width:100%; z-index: -1 ">
+            <div class="container-left" style="width:42%; float:left;">
+                <div id="google_map_prop_list_wrapper" class="google_map_prop_list  half_type1" style="top: 175px; margin-top: 0px; padding-top: 0px;">
+                    <!-- Google Map -->
+                    <div id="gmap_wrapper" style="height: 0px;">
+                        <div id="googleMap" style="height: 0px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -162, -58);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -162, -58);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div></div></div><div style="width: 118px; height: 118px; overflow: hidden; position: absolute; left: -16px; top: -49px; z-index: 34;"><img alt="" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/villasrentals_2x.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 44px; height: 48px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 987; transform: matrix(1, 0, 0, 1, -162, -58);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2089!3i3041!4i256!2m3!1e0!2sm!3i500216938!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=10888" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2088!3i3041!4i256!2m3!1e0!2sm!3i500216758!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=45602" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2088!3i3040!4i256!2m3!1e0!2sm!3i500217454!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=114260" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2089!3i3040!4i256!2m3!1e0!2sm!3i500217454!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=343" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2090!3i3040!4i256!2m3!1e0!2sm!3i500217454!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=14248" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="http://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i13!2i2090!3i3041!4i256!2m3!1e0!2sm!3i500217310!3m12!2sen-US!3sUS!5e18!12m4!1e68!2m2!1sset!2sRoadmap!12m3!1e37!2m1!1ssmartmaps!4e0!5m1!5f2&amp;key=AIzaSyA-1C81YHe9khnnxM-ViakIKJoaEz94uq4&amp;token=78567" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div title="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" style="width: 134px; height: 134px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -24px; top: -57px; z-index: 34;"><img alt="" src="https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/villasrentals_2x.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 134px; height: 134px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=41.992972,-88.170509&amp;z=13&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="http://maps.gstatic.com/mapfiles/api-3/images/google4_hdpi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 125px; position: absolute; left: 106px; top: 5px;"><div style="padding: 0px 0px 10px; font-size: 16px; box-sizing: border-box;">Map Data</div><div style="font-size: 13px;">Map data ©2020</div><button draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 71px; bottom: 0px; width: 87px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2020</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2020</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; box-sizing: border-box; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; display: none; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div></div></div>    
+                        <div class="tooltip" style="top: 273px; left: 338px; z-index: 1; display: none;"> click to enable zoom</div>
+
+                        <div id="gmap-noresult">
+                            No results found.
+                        </div>
+                        <div class="gmap-controls">
+                            <div id="openmap"><i class="fa fa-angle-down"></i>open map</div>        <div id="gmap-control">
+                                <span id="map-view"><i class="fa fa-picture-o"></i>View</span>
+                                <span id="map-view-roadmap" class="map-type">Roadmap</span>
+                                <span id="map-view-satellite" class="map-type">Satellite</span>
+                                <span id="map-view-hybrid" class="map-type">Hybrid</span>
+                                <span id="map-view-terrain" class="map-type">Terrain</span>
+                                <span id="geolocation-button"><i class="fa fa-map-marker"></i>My Location</span>
+                                <span id="gmap-full"><i class="fa fa-arrows-alt"></i>Fullscreen</span>
+                                <span id="gmap-prev"><i class="fa fa-chevron-left"></i>Prev</span>
+                                <span id="gmap-next">Next<i class="fa fa-chevron-right"></i></span>
+
+
+                            </div>
+
+                            <div id="gmapzoomplus"><i class="fa fa-plus"></i></div>
+                            <div id="gmapzoomminus"><i class="fa fa-minus"></i></div>
+                        </div>
+
+                    </div>    
+                    <!-- END Google Map --> 
+                </div>
+            </div>
+            <div class="container-right" style="width:58%;float:right;" >
+                <h1 class="entry-title title_prop" style="padding-left:5px; padding-top:10px;"> Home Search </h1>  
+
+            </div>  
+        </div>
+
+        <div id="google_map_prop_list_sidebar" class=" half_type1" style="top: 175px; margin-top: 0px; padding-top: 0px;">
+
+
+            <div class="col-md-12">
+
+                <h1 class="entry-title title_prop" style="margin: 0">
+                    Home Search    
+                </h1>
+
+
+
+
+                <hr><div class="single-content listing-content zfs-sortable-listings-list">
+
+                    <div class="col-md-2 listing_wrapper the_grid_view" data-org="2" data-listid="701072" style="overflow:hidden;"> 
+                        <div class="property_listing" data-link="" style="">
+                            <div class="listing-unit-img-wrapper">
+
+                                <div id="property_unit_carousel_5e5fe481c9083" class="carousel property_unit_carousel slide  " data-ride="carousel" data-interval="false">
+                                    <div class="carousel-inner">         
+                                        <div class="item active"> 
+                                            <a href="/listings/701072/145-ann-court-a-bartlett"><img src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497742525_IMG_3543.JPEG" style="height:187px" alt="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" class="img-responsive" onerror="this.src='https://d23r59tl76qo2o.cloudfront.net/images/not-avail-min.jpg'"></a>
+                                        </div>
+
+                                        <div class="item lazy-load-item">
+                                            <a href="/listings/701072/145-ann-court-a-bartlett"><img data-lazy-load-src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497720273_IMG_3547.JPEG" alt="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" class="img-responsive" onerror="this.src='https://d23r59tl76qo2o.cloudfront.net/images/not-avail-min.jpg'" src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497720273_IMG_3547.JPEG"></a>
+                                        </div>
+
+                                        <div class="item lazy-load-item">
+                                            <a href="/listings/701072/145-ann-court-a-bartlett"><img data-lazy-load-src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497677191_IMG_3555.JPEG" alt="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" class="img-responsive" onerror="this.src='https://d23r59tl76qo2o.cloudfront.net/images/not-avail-min.jpg'" src="http://mredllc.media-cs.connectmls.com/96CADBB5621077D4E0531607010A5878/HD_1573497677191_IMG_3555.JPEG"></a>
+                                        </div>
+
+                                    </div>
+
+                                    <a href="/listings/701072/145-ann-court-a-bartlett"> </a>
+                                    <a class="left  carousel-control" href="#property_unit_carousel_5e5fe481c9083" data-slide="prev">
+                                        <i class="fa fa-angle-left" style="color:#000000;text-shadow: 1px 1px 1px #fff;"></i>
+                                    </a>
+                                    <a class="right  carousel-control" href="#property_unit_carousel_5e5fe481c9083" data-slide="next">
+                                        <i class="fa fa-angle-right" style="color:#000000;text-shadow: 1px 1px 1px #fff;"></i>
+                                    </a>
+
+                                </div>
+                                <div class="featured_div" style="display: none; background-image: url(&quot;https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/unit_2x.png&quot;); background-size: 175px 53px;"></div>        
+                            </div>
+
+                            <div class="ribbon-wrapper-default ribbon-wrapper-new-offer">
+                                <div class="ribbon-inside new-offer">
+                                    Off the Market            </div>
+                            </div>
+
+                            <h4 class="listing-title">
+                                <a href="/listings/701072/145-ann-court-a-bartlett">
+                                    SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!           
+                                </a> 
+                            </h4> 
+
+                            <div class="property_location" style="width:100%; min-height: 13px;">   
+
+
+                                <span class="inforoom" style="background-image: url(&quot;https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/icon_bed1_2x.png&quot;); background-size: 19px 10px;">3</span>
+
+
+                                <span class="infobath" style="background-image: url(&quot;https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/icon_bath1_2x.png&quot;); background-size: 14px 13px;">1</span>
+
+
+                            </div>
+
+                            <div class="listing_details the_grid_view" style="display: block; overflow: hidden; height: 120px;">
+                                IMMACULATE POPULAR RANCH TOWNHOME LOCATED ON THE CORNER!  YOUR MOVE IN WILL BE EASY W...                    </div>
+                            <div class="listing_details the_list_view" style="display: none;">
+                                IMMACULATE POPULAR RANCH TOWNHOME LOCATED ON THE CORNER!  YOUR MOVE IN WILL BE EASY W...                    </div>
+
+                            <div class="listing_unit_price_wrapper"><span class="price_label price_label_before"></span> $129,900 
+                                <div style="margin-right:20px; display: inline-block; float: right;">
+
+                                    <button class="wpb_button wpb_btn-info wpb_btn-large email-listing-start" onclick="show_email_listing_info(this);" id="" style="padding:5px; font-size:12px; margin: 0" data-target="#email_listing_modal" data-toggle="modal" data-address="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" data-url="http://marystevens.com/listings/701072/145-ann-court-a-bartlett" data-code="1934353680:701072" data-feed-id="1046" data-property-id="10571363" rel="tooltip" title="Email Listing">
+                                        <i class="fa fa-envelope"></i> </button>
+
+
+                                    <button class="wpb_button wpb_btn-info wpb_btn-large rq-info-listing-start" onclick="show_request_info(this);" id="rq_info_listing_start" style="padding:5px; font-size:12px; margin: 0" data-target="#rq_info_listing_modal" data-toggle="modal" data-address="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" data-url="http://marystevens.com/listings/701072/145-ann-court-a-bartlett" data-code="1934353680:701072" data-type="rq_info" rel="tooltip" title="Request Info">
+                                        <i class="fa fa-info-circle"></i> </button>
+
+
+                                    <button class="wpb_button wpb_btn-info wpb_btn-large schedule-showing-start" onclick="show_schedule_showing_info(this);" id="schedule_showing_listing_start" style="padding:5px; font-size:12px; margin: 0" data-target="#schedule_showing_modal" data-toggle="modal" data-address="SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!" data-url="http://marystevens.com/listings/701072/145-ann-court-a-bartlett" data-code="1934353680:701072" data-type="schedule" rel="tooltip" title="Schedule Showing">
+                                        <i class="fa fa-calendar"></i> </button>
+
+
+                                </div>
+
+                                <div class="listing_actions">
+                                    <div class="share_unit" style="display: none;">
+                                        <a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmarystevens.com%2Flistings%2F701072%2F145-ann-court-a-bartlett&amp;t=Home+Search" target="_blank" class="social_facebook"></a>
+                                        <a href="http://twitter.com/home?status=http%3A%2F%2Fmarystevens.com%2Flistings%2F701072%2F145-ann-court-a-bartlett" class="social_tweet" target="_blank"></a>
+                                        <a href="https://plus.google.com/share?url=http%3A%2F%2Fmarystevens.com%2Flistings%2F701072%2F145-ann-court-a-bartlett" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" target="_blank" class="social_google"></a> 
+                                        <a href="http://pinterest.com/pin/create/button/?url=http%3A%2F%2Fmarystevens.com%2Flistings%2F701072%2F145-ann-court-a-bartlett&amp;image_url=http%3A%2F%2Fmredllc.media-cs.connectmls.com%2F96CADBB5621077D4E0531607010A5878%2FHD_1573497742525_IMG_3543.JPEG&amp;media=http%3A%2F%2Fmredllc.media-cs.connectmls.com%2F96CADBB5621077D4E0531607010A5878%2FHD_1573497742525_IMG_3543.JPEG&amp;description=Home+Search" target="_blank" class="social_pinterest"></a>
+                                    </div>
+
+
+                                    <span class="share_list" data-original-title="share" style="background-image: url(&quot;https://d23r59tl76qo2o.cloudfront.net/wp-content/themes/z57-custom-v2/css/css-images/unitshare_2x.png&quot;); background-size: 40px 16px;"></span>
+
+
+
+                                </div>
+
+
+                            </div>           
+                        </div>          
+                    </div>
+                </div>
+
+
+
+                <script type="text/javascript">
+                    /* <![CDATA[ */
+                    var googlecode_regular_vars = {"general_latitude": "41.9929716", "general_longitude": "-88.17050949999998", "path": "https:\/\/d23r59tl76qo2o.cloudfront.net\/css\/css-images", "markers": "[[\"SQUEAKY CLEAN 3BR RANCH TOWNHOME WITH ATTACHED GARAGE!\",\"41.9929716\",\"-88.17050949999998\",34,\"<img src='http:\\\/\\\/mredllc.media-cs.connectmls.com\\\/96CADBB5621077D4E0531607010A5878\\\/HD_1573497742525_IMG_3543.JPEG'>\",\"$129,900\",\"villas\",\"rentals\",\"villasrentals\",\"\\\/listings\\\/701072\\\/145-ann-court-a-bartlett\",132,\"new-york\",\"queens\",1900,3,1,0,\"\",\"IMMACULATE POPULAR RANCH TOWNHOME LOCATED ON THE C...\",53,\"\"]]", "idx_status": 0, "page_custom_zoom": 13, "generated_pins": 0, "type": "ROADMAP", "is_adv_search": 0};
+                    /* ]]> */
+                </script>    
+                <div class="clearfix"></div>
+            </div>
+
+            <!-- end col-md-12/col-md-9 container-->
+            <div class="clearfix visible-xs"></div>
+
+
+        </div>  
+        <!-- code for E-mail listing icon-->
+        <div id="email_listing_modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3>Email This Listing</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div id="email_listing_notify"></div>
+
+                        <p style="padding:5px">Forward information about this listing to your friends and family.</p>
+                        <form class="form-horizontal" id="email_listing_form" name="email_listing_form">
+                            <div class="row">
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="email_listing_form[name]" style="width: 100%" value="" placeholder="Name*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="email_listing_form[email]" style="width: 100%" value="" placeholder="Email Address*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="email_listing_form[phone]" style="width: 100%" value="" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:10px;">
+                                <div class="span12 col-md-12" style="padding:5px">
+                                    <textarea id="email_listing_comment" name="email_listing_form[comments]" style="width: 100%" rows="4" placeholder="Comment"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span6 col-md-6" style="padding-left:5px; padding-right:5px;">
+                                    <input type="text" name="email_listing_form[name_r1]" style="width: 100%" placeholder="Recipient #1 Name*">
+                                </div>
+                                <div class="span6 col-md-6" style="padding-left:5px; padding-right:5px;">
+                                    <input type="text" name="email_listing_form[email_r1]" style="width: 100%" placeholder="Recipient #1 Email*">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:10px">
+                                <div class="span6 col-md-6" style="padding-left:5px; padding-right:5px;">
+                                    <input type="text" name="email_listing_form[name_r2]" style="width: 100%" placeholder="Recipient #2 Name*">
+                                </div>
+                                <div class="span6 col-md-6" style="padding-left:5px; padding-right:5px;">
+                                    <input type="text" name="email_listing_form[email_r2]" style="width: 100%" placeholder="Recipient #2 Email*">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary pull-right zfs-lead-request privacy_email_listing_form" id="email_listing_btn" data-request="email_listing" data-form-id="#email_listing_form" data-notification-id="#email_listing_notify" data-loading-text="Sending..." disabled=""><i class="fa fa-envelope icon-envelope icon-white"></i> Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Information modal    -->
+        <div id="rq_info_listing_modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3>Contact Agent About Listing</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div id="rq_info_listing_form_notify"></div>
+                        <form class="form-horizontal" id="rq_info_listing_form" name="rq_info_listing_form">
+                            <div class="row">
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="rq_info_listing_form[name]" style="width: 100%" value="" placeholder="Name*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="rq_info_listing_form[email]" style="width: 100%" value="" placeholder="Email Address*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="rq_info_listing_form[phone]" class="wp-phone-required" style="width: 100%" value="" placeholder="Phone Number">
+                                </div>                    
+                            </div>
+                            <div class="row">
+                                <div class="span12 col-md-12" style="padding-left:5px; padding-right:5px;">
+                                    <textarea id="rq_info_listing_comment" name="rq_info_listing_form[comments]" style="width: 100%" rows="4"></textarea>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary zfs-lead-request privacy_rq_info_listing_form" id="rq_info_listing_finish" data-request="rq_info_listing" data-form-id="#rq_info_listing_form" data-notification-id="#rq_info_listing_form_notify" data-loading-text="<i class='icon-refresh'></i> Saving...">Save
+                        </button>
+                    </div>
+                </div>
+            </div>     
+        </div>
+
+        <!-- Schedule showing modal   -->
+        <div id="schedule_showing_modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3>Schedule a Showing</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div id="schedule_showing_modal_notify"></div>
+                        <p>Schedule a showing for <a id="schedule_showing_display_url" href="#"></a></p>
+                        <form class="form-horizontal" id="schedule_showing_form" name="schedule_showing_form">
+                            <div class="row">
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="schedule_showing_form[name]" style="width: 100%" value="" placeholder="Name*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="schedule_showing_form[email]" style="width: 100%" value="" placeholder="Email Address*">
+                                </div>
+                                <div class="span4 col-md-4" style="padding:5px">
+                                    <input type="text" name="schedule_showing_form[phone]" class="wp-phone-required" style="width: 100%" value="" placeholder="Phone Number">
+                                </div>                    
+                            </div>
+                            <div class="row">
+                                <div class="span12 col-md-12" style="padding-left:5px; padding-right:5px;">
+                                    <textarea name="schedule_showing_form[comments]" style="width: 100%" rows="4" placeholder="Please enter any comments ..."></textarea>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary zfs-lead-request privacy_schedule_showing_form" id="schedule_showing_send" data-request="schedule_showing" data-form-id="#schedule_showing_form" data-notification-id="#schedule_showing_modal_notify" data-loading-text="<i class='icon-refresh'></i> Saving...">Save
+                        </button>
+                    </div>
+                </div>
+            </div>     
+        </div>
+
+
+    </body>
+</html>
+
+
+

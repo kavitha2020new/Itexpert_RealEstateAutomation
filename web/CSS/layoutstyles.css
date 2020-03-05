@@ -71,15 +71,15 @@
             .search-location {
                 padding:10px;
                 font-size: 13px;
-                text-transform: uppercase;
                 cursor:pointer;
             }
-            #search-btn{
-                background-color: black; 
-                color:white; 
-                border-radius: 3px; 
-                padding:10px;
+            
+            .search-btn button{
                 text-transform: uppercase;
+                height: 50px;
+                background-color: black; 
+                color:white;
+                border-radius: 3px;
             }
             .mySlides-own {display: none}
             .mySlides-own img {vertical-align: middle;}
@@ -166,4 +166,88 @@
                 font-size:10px;
                 text-align: center;
             }
+
+ .property_icon {
+                font-size:13px;
+                margin:0 0 10px 13px;
+                color:#99a3b1;
+                line-height:13px;
+                float:left;
+                cursor:pointer;
+            }
+            .listing-title{
+                height:70px;
+                overflow: hidden;
+            }
+            .listing-title h4{
+                padding:10px 13px;
+                margin-top:19px;
+                margin-bottom: 6px;
+                float: left;
+                width:100%;
+            }
+            button.wpb_button {
+                background-color:black;
+                color:white;
+            }
+            .roominfo{
+                font-size: 13px;
+       
+                background-repeat: no-repeat;
+                margin-right: 7px;
+                padding-left: 23px;
+                color:#99a3b1;
+            }
+            .bathinfo{ 
+                font-size: 13px;
+                background-repeat: no-repeat;
+                margin-right: 7px;
+                padding-left: 18px;
+                color:#99a3b1;
+            }
+            .listing_unit_price_wrapper{
+                color:#000000;
+                position:static;
+                padding-left: 10px;
+                margin-top:10px;
+            }
+            .share-actions{
+                float:right;
+                margin-top:3px;
+                position: Default;
+                top:11px;
+                cursor:pointer;
+                margin: 0px 0px 0px 13px
+
+            }
+
+            .col-md-8{
+                margin-top:25px;
+                min-height:1px;
+                padding-right: 15px;
+                padding-left:15px;
+                text-align: justify;
+                line-height: 1.5;
+            }
+            .col-md-8 p{
+                margin-bottom: 13px;
+                margin-right: 15px;
+
+            }
+            #slider_price_5e5d7c99a210a {
+                margin-left: 7px;
+                width: 100%;
+                max-width: 214px;
+                height: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+            .ui-slider-handle {
+                margin-top: -2px;
+                width: 17px;
+                height: 17px;
+            }
+
+            .advanced_search_shortcode { 
+                border-color:#000000;}
 
